@@ -1,5 +1,5 @@
 # STAK
-STAK is a fully undetected program runner that can run everything you want. From ransomware, to RATs.
+STAK is a fully undetected program runner that can run everything you want.
 
 This is purely made for educational purposes and not ment to be used to spread any sort of malware.
 
