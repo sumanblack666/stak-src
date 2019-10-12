@@ -39,7 +39,7 @@ AddToSchtasks();
 ```
 
 This is the part where you will need your stub, pastebin and your browser.
-Open your browser and open [this link](https://www.browserling.com/tools/file-to-base64). Drag and drop your stub into the blue space on the site. Now press "Convert to Base64!". A box wil open up below the button, click on it, press CTRL + A and press CTRL + C. Now open up pastebin with [this link](https://pastebin.com). You will now see this:
+Open your browser and open [this link](https://www.browserling.com/tools/file-to-base64). Drag and drop your stub into the blue space on the site. Now press "Convert to Base64!". A box will open up below the button, click on it, press CTRL + A and press CTRL + C. Now open up pastebin with [this link](https://pastebin.com). You will now see this:
 
 ![](https://i.imgur.com/hQ4kV6q.png)
 
