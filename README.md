@@ -3,6 +3,12 @@ STAK is a fully undetected program runner that can run everything you want.
 
 This is purely made for educational purposes and not ment to be used to spread any sort of malware.
 
+**Credits to**
+```
+NYAN-x-CAT - for the dropless program code
+bytecode77 - for the rootkit
+```
+
 # Functions
 • Dropless - Uses base64 to run executable in memory without dropping it to disk.
 
